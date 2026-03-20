@@ -9,7 +9,6 @@ services:
     ports:
       - "8081:8081"
     environment:
-      # Para simular lentidão, altere o valor (em ms):
       - PRODUCT_RESPONSE_DELAY_MS=0
     networks:
       - ecommerce-net
